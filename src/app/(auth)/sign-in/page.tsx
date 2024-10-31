@@ -9,8 +9,11 @@ const SignIn = () => {
           <LoginFormComponent />
         </div>
       </div>
-      <div className="w-auto">
-        <h1>Sign In</h1>
+      <div className="w-[60%] flex flex-col items-center justify-center p-10">
+        <div className="w-full flex flex-col items-center justify-center space-y-3">
+          <h1 className="lg:text-4xl font-bold">Motoclub Connect</h1>
+          <h3>Connect, Ride and Inspire.</h3>
+        </div>
       </div>
     </div>
   );
