@@ -9,6 +9,7 @@ type Club = {
 export const fetchClubs = async (): Promise<Club[]> => {
   try {
     const response = await apiClient.get('/clubs');
+    console.log('rgdb clubs')
     return response.data;
   } catch (error) {
     throw new Error('Failed to fetch clubs.');
