@@ -97,7 +97,7 @@ export default function Home() {
         </a>
       </footer>
     </div> */
-   <h1>Home page</h1>
+   <h1 className="text-3xl text-accent font-bold">Home page</h1>
     
   );
 }
